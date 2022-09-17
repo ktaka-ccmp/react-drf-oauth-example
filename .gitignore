@@ -1,0 +1,7 @@
+/files/
+__pycache__
+diagsdb.dump
+db.sqlite3
+*~
+.env
+
