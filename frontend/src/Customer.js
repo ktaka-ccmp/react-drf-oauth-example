@@ -41,7 +41,7 @@ const CustomerList = () => {
 	const fetchItems = async () => {
 	    setLoading(true);
 
-	    await axios.get("http://v147.h.ccmp.jp:8000/api/customer/")
+	    await axios.get(`${process.env.REACT_APP_API_SERVER}/api/customer/`)
 		.then(res => {
 		    setItems(res.data.results);
 		    setLoading(false);
