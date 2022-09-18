@@ -1,7 +1,8 @@
 /files/
 __pycache__
-diagsdb.dump
 db.sqlite3
+/aaa/
+migrations/
 *~
 .env
-
+.venv
