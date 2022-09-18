@@ -14,9 +14,11 @@ const App = () => {
   return (
       <div>
 	  <Container fluid="sm">
-	      <Table bordered hover striped responsive>
-		  <tr><Link to={`/`}>Top</Link></tr>
-		  <tr><Link to={`/customer`}>Customer</Link></tr>
+	      <Table borderless responsive size="sm">
+		  <tbody>
+		      <tr><td><Link to={`/`}>Top</Link></td></tr>
+		      <tr><td><Link to={`/customer`}>Customer</Link></td></tr>
+		  </tbody>
 	      </Table>
 	      
 	      <Routes>
