@@ -11,6 +11,7 @@ itypes==1.2.0
 Jinja2==3.1.2
 MarkupSafe==2.1.1
 model-bakery==1.7.0
+python-decouple==3.6
 pytz==2022.2.1
 requests==2.28.1
 sqlparse==0.4.2

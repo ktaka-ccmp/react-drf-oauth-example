@@ -4,7 +4,7 @@
 
 ### Django
 
-python3 -m venv .venv
+python3 -m venv .venv\
 source .venv/bin/activate
 pip install django djangorestframework django-cors-headers 
 pip install coreapi
@@ -28,5 +28,13 @@ backend/restapi/urls.py
 
 curl -H 'Accept: application/json' http://localhost:8000/api/customer/|jq .
 
+pip install python-decouple
+
 ### React.js
+
+For react.js, frontend/.env:
+REACT_APP_API_SERVER=http://v147.h.ccmp.jp:8000
+
+For django, backend/backend/.env:
+ORIGIN_SERVER=http://v147.h.ccmp.jp:3000
 
